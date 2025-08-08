@@ -25,3 +25,15 @@ Registrar manualmente todo el proceso en una hoja de papel, simulando un bloc de
 Transcribir el contenido de la hoja a un archivo REPORT.txt en el repositorio. 
 
 Asegurarse de que el archivo REPORT.txt mantenga un formato claro, sin formato adicional, como si fuera una transcripción directa del bloc de notas. 
+
+## ToDoApp-Grupo-JavKevMat
+Aplicacion de listas de tareas en pyton
+
+## instalación
+1. clonar repositorio.
+2. Instala pyton 3.x.
+3. ejecuta python main.py`.
+
+## Funcionalidades
+- Crear tareas .
+- Eliminar tareas.
