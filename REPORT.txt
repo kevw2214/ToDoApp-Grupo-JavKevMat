@@ -1,0 +1,62 @@
+#Informe del grupo
+
+1. Pasos realizados:
+
+- Se configuro la rama en git
+- Se sincronizo el git con el VScode
+- Creamos el repositorio <ToDoApp-Grupo-JavKevMat>
+- Creamos los archivos main y Task_model
+- Realizamos un git add y un git commit
+- Subimos los archivos al repositorio (Push)
+- Cada miembro creo una rama (estudiante1, Estudiante2, estudiante3)
+- Cada miembro realizo sus respectivos cambios en sus ramas
+- Uno del grupo creo otra rama llamada <Group-2>
+- Se realizaron 3 merge en la rama group-2 merge estudiante1, Estudiante2, estudiante3
+- Implementación funcionalidades y resolvimos conflictos
+- Realizamos un PR en el repositorio
+- Realizamos un merge del main con la rama group-2, para fusionar los cambios
+
+2. Comandos git:
+
+- git config --global core.editor "code--wait"
+- git init
+- git status
+- git commit -m "text"
+- git pull
+- git commit --amend
+- git branch y git branch -r
+- git log --oneline
+- git switch "nombre de la rama"
+- git add .
+- git push
+- git merge
+- git merge --abort
+- git checkout -b
+- git push -f
+- git branch -d
+
+3. Conflictos:
+
+Habían conflictos en el "git merge estudiante1" cuando tratamos e fusionar "estudiante1" en la rama "grupo2" habían funciones en la clase task_model que no debian estar y lo solucionamos fusionando las funciones
+
+Habían conflictos en el "git merge Estudiante2" clase main.py cuando fusionamos "Estudiante2" en la rama "grupo2" habían funciones que faltaban y añadimos esos cambios para solucionar el conflicto 
+
+Habían conflictos en el "git merge estudiante3" clase task_model cuando fusionamos "estudiante3" en la rama "grupo2" habían 4 funciones "def" que faltaban, solucionamos este error añadiendo las clases "def" que faltaban y modificando algunas que ya estaban.
+
+4. Contribuciones:
+
+- Estudiante 1 (kevin):
+
+	- Creo el repositorio
+	- Añadio mark_as_complete y acutalizo main.py
+
+- Estudiante 2 (Javier):
+	
+	- Añadio delete_task y actualizo README.md y añadió el Report.txt
+
+- Estudiante 3 (Mateo):
+	- Simulo conflicto con set_done/remove_task y lo resolvió
+
+5. Reflexión:
+
+Durante la creación y gestión de las rama  surgieron pequeños problemas como commits sin mensaje, errores al hacer push por no configurar el upstream y confusiones con la sintaxis. Estos inconvenientes muestran la importancia de seguir un flujo ordenado: preparar bien los cambios, escribir mensajes claros y configurar la rama remota desde el inicio. Son detalles simples, pero marcan la diferencia para evitar retrabajos y mantener un manejo de Git más fluido y eficiente
